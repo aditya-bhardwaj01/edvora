@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    background-color: #101010;
+    color: white;
+    padding: 0.3em;
+}
+
+.tag {
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.96px;
+    margin-left: 1em;
+    margin-top: 0.4em;
+}
+
+.profile {
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1em;
+    font-size: 20px;
+    line-height: 24.2px;
+    font-weight: 700;
+    margin-top: 0.4em;
+    text-align: right;
+}
+.profile span{
+    margin-right: 0.7em;
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 485px) {
+    .profile{
+        font-size: 14px;
+        margin-right: 0.5em;
+    }
+    .tag{
+        font-size: 25px;
+        margin-left: 0.5em;
+    }
+}

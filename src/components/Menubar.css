@@ -1,0 +1,96 @@
+.Menubar {
+    background-color: #292929;
+    padding: 1em 1.7em;
+}
+
+.list {
+    margin-top: 0.8em;
+    /* border: solid red; */
+}
+
+.list ul li {
+    color: white;
+    display: inline;
+    padding: 1em;
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    /* border: solid blue; */
+}
+
+.filter {
+    color: white;
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    padding: 1em;
+    cursor: pointer;
+    /* border: solid green; */
+}
+
+.filter img {
+    height: 20px;
+    width: 25px;
+    margin-right: 0.6em;
+}
+
+.active a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
+
+.active a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+a {
+    color: #D0CBCB;
+}
+
+a:hover {
+    color: #D0CBCB;
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .Menubar {
+        background-color: #292929;
+        padding: 0.3em 1em;
+    }
+
+    .list ul li {
+        padding: 0.5em;
+    }
+
+    .filter {
+        padding: 0.5em;
+        margin-right: 0;
+    }
+
+    .filter img {
+        height: 10px;
+        width: 15px;
+        margin-right: 0.3em;
+    }
+}
+
+@media (max-width: 485px) {
+    .list ul li {
+        font-size: 12px;
+    }
+
+    .filter {
+        font-size: 12px;
+    }
+}

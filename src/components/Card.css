@@ -1,0 +1,33 @@
+.Card{
+    background-color: #171717;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    padding: 1em;
+    border-radius: 10px;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-text{
+    font-size: 14px;
+    float: left;
+    font-family: 'Arvo', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    /* border: solid red; */
+    /* width: 60%; */
+}
+.card-text span{
+    color: #8A8A8A;
+}
+
+.right-of-card span{
+    margin: 0.5em;
+    background-color: #0A0A0A;
+    border: white;
+    padding: 0 0.5em;
+    border-radius: 20px;
+}
